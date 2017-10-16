@@ -1,0 +1,73 @@
+h1,
+p,
+.navigation {
+    font-family: 'Catamaran', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.navigation {
+    position: absolute;
+    border: #D64078 solid;
+    width: 9em;
+}
+
+.navigation li a {
+    color: palevioletred;
+}
+
+a:link {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+a:visited {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    top:0,1em;
+    left: 9.3em;
+    max-width: 73em;
+    border: #FDC72F solid;
+}
+.content2{
+    position: relative;
+    left: 9.3em;
+    max-width: 73em;
+    
+    border: #FDC72F solid;
+}
+
+.content3{
+    position: relative;
+    top:0,1em;
+    left: 9.3em;
+    max-width: 73em;
+    
+    
+    border: #FDC72F solid;
+}
+
+p code{
+    background-color: #d3c5cc;
+}
+
+.pie{
+    position: fixed;
+    bottom: 0;
+    border: green solid;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+
+}
