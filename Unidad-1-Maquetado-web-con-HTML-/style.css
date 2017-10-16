@@ -69,8 +69,13 @@ p code{
     position: fixed;
     bottom: 0;
     border: green solid;
-    left: 0;
-    right: 0;
+    left: 10em;
+    max-width: 73em;
+    max-height: 30em;
     background-color: #ffffff;
 
+}
+
+.espacio{
+    height: 10em;
 }
