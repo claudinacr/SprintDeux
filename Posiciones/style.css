@@ -1,0 +1,48 @@
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.espacio{
+ margin-left: 50px; 
+}
+.statics {
+
+  width: 100px;
+  height: 100px;
+  background-color: #22CCFF;
+  position: static;
+  /*como es position static, no puedo reposicionar el elemento, por eso n funciona el top*/
+  top: 20px
+}
+
+.relatives {
+
+    width: 100px;
+  height: 100px;
+  background-color: #FF5555;
+  position: relative;
+  /*Con position relative, si puedo reposicionarlo*/
+  top:50px;
+}
+
+.absolutes {
+  
+    width: 150px;
+    height: 10000px;
+    background-color: #FFFF55;
+    position: absolute;
+    /*Con position relative, si puedo reposicionarlo*/
+    top:50px;
+  }
+
+  .fixes{
+    width: 150px;
+    height: 150px;
+    background-color: #88CC33;
+    position: fixed;
+    /*Con position relative, si puedo reposicionarlo*/
+    top:200px;
+  }
+
+  

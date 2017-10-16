@@ -1,0 +1,22 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  p {
+    background: aqua;
+    border: 3px solid #0000ff;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  
+  p .dos{
+    background: aqua;
+    border: 3px solid #0000ff;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  span {
+    background: red;
+    border: 1px solid black;
+  }
